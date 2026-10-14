@@ -1,0 +1,170 @@
+.hero-scene-container {
+  width: 100%;
+  height: 100%;
+  min-height: 480px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+
+.threejs-canvas-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+
+.threejs-canvas-wrapper:active {
+  cursor: grabbing;
+}
+
+.threejs-canvas-wrapper canvas {
+  width: 100% !important;
+  height: 100% !important;
+  outline: none;
+}
+
+/* Fallback CSS Volumetric Sculpture */
+.hero-3d-fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}
+
+.fallback-sculpture {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fallback-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.fallback-ring-outer {
+  width: 240px;
+  height: 240px;
+  border-top-color: var(--accent-volt);
+  border-bottom-color: var(--accent-cyan);
+  animation: spinOuter 8s linear infinite;
+}
+
+.fallback-ring-inner {
+  width: 180px;
+  height: 180px;
+  border-left-color: var(--accent-cyan);
+  border-right-color: var(--accent-volt);
+  animation: spinInner 6s linear infinite reverse;
+}
+
+.fallback-core {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, var(--accent-volt) 0%, rgba(7, 8, 11, 0.9) 70%);
+  border: 2px solid var(--accent-volt);
+  border-radius: 16px;
+  transform: rotate(45deg);
+  box-shadow: 0 0 35px var(--accent-volt-glow);
+  animation: pulseCore 3s ease-in-out infinite;
+}
+
+.fallback-particles {
+  position: absolute;
+  inset: 0;
+}
+
+.fallback-dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-cyan);
+  box-shadow: 0 0 10px var(--accent-cyan);
+}
+
+.fallback-dot.d1 {
+  top: 15%;
+  left: 20%;
+  animation: floatDot 4s ease-in-out infinite;
+}
+
+.fallback-dot.d2 {
+  bottom: 25%;
+  right: 15%;
+  animation: floatDot 5s ease-in-out infinite 1s;
+}
+
+.fallback-dot.d3 {
+  top: 60%;
+  left: 80%;
+  animation: floatDot 4.5s ease-in-out infinite 2s;
+}
+
+.fallback-caption {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+}
+
+@keyframes spinOuter {
+  from {
+    transform: rotate(0deg) rotateX(45deg);
+  }
+  to {
+    transform: rotate(360deg) rotateX(45deg);
+  }
+}
+
+@keyframes spinInner {
+  from {
+    transform: rotate(0deg) rotateY(45deg);
+  }
+  to {
+    transform: rotate(360deg) rotateY(45deg);
+  }
+}
+
+@keyframes pulseCore {
+  0%, 100% {
+    transform: rotate(45deg) scale(1);
+  }
+  50% {
+    transform: rotate(45deg) scale(1.08);
+  }
+}
+
+@keyframes floatDot {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-scene-container {
+    min-height: 360px;
+  }
+}
