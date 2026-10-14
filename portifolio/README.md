@@ -27,10 +27,9 @@ npm run preview
 
 ---
 
-## 🚀 Parâmetros para Deploy no Render (Static Site)
+## 🌐 Aplicação Publicada
 
-- **Root Directory:** `portifolio`
-- **Build Command:** `npm ci && npm run build`
-- **Publish Directory:** `dist`
+A aplicação está hospedada e online no **Render**:  
+🔗 **URL Oficial:** [https://portifolio-i1mc.onrender.com/](https://portifolio-i1mc.onrender.com/)
 
-Consulte a documentação completa em [../README.md](../README.md).
+Para a documentação completa, consulte o [README.md principal na raiz do repositório](../README.md).

@@ -97,7 +97,7 @@ export function ContactLinks({ contact, t }) {
         </div>
         <div className="contact-card-content">
           <span className="contact-card-tag">{t.contact.linkedinLabel}</span>
-          <span className="contact-card-link">in/frederico-marques-dev</span>
+          <span className="contact-card-link">in/fredmarques916</span>
         </div>
         <span className="arrow-external">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">

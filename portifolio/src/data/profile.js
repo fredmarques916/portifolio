@@ -153,7 +153,7 @@ export const profileData = {
   contact: {
     email: "fredmarques916@gmail.com",
     github: "https://github.com/fredmarques916",
-    linkedin: "https://www.linkedin.com/in/frederico-marques-dev/", // Link configurável
+    linkedin: "https://www.linkedin.com/in/fredmarques916/",
     whatsapp: "https://wa.me/5531999999999", // Link configurável pelo usuário
     location: "Belo Horizonte / MG, Brasil",
   },

@@ -27,7 +27,7 @@
 
 ## 🚧 Status do Projeto
 
-[![Status](https://img.shields.io/badge/Status-Concluído%20%26%20Publicável-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white)](#-deploy)
+[![Status](https://img.shields.io/badge/Status-Online%20%26%20Publicado-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white)](https://portifolio-i1mc.onrender.com/)
 [![Versão](https://img.shields.io/badge/Versão-v1.2.0-blue?style=for-the-badge)](#)
 ![React](https://img.shields.io/badge/React-19.2.8-007ec6?style=for-the-badge&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8.3.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -57,7 +57,7 @@
   - [Instalação de Dependências](#-instalação-de-dependências)
   - [Execução em Modo de Desenvolvimento](#-execução-em-modo-de-desenvolvimento)
   - [Validação com Oxlint e Build de Produção](#-validação-com-oxlint-e-build-de-produção)
-- [🚀 Deploy no Render](#-deploy-no-render)
+- [🌐 Aplicação Publicada](#-aplicação-publicada)
 - [📂 Estrutura de Pastas](#-estrutura-de-pastas)
 - [🎥 Demonstração das Seções](#-demonstração-das-seções)
 - [🧪 Testes e Validação](#-testes-e-validação)
@@ -71,11 +71,11 @@
 
 ## 🔗 Links Úteis
 
-* 🌐 **Aplicação Web (Render):** [https://frederico-marques.onrender.com](https://frederico-marques.onrender.com)
+* 🌐 **Aplicação Web (Render):** [https://portifolio-i1mc.onrender.com/](https://portifolio-i1mc.onrender.com/)
   > 💻 **Descrição:** Link de produção pública com HTTPS ativo, CDN global e deploy automatizado.
 * 🐙 **Repositório no GitHub:** [github.com/fredmarques916/portifolio](https://github.com/fredmarques916/portifolio)
   > 📁 **Descrição:** Código-fonte integral versionado, histórico de commits e documentação do projeto.
-* 💼 **LinkedIn do Desenvolvedor:** [linkedin.com/in/frederico-marques-dev](https://www.linkedin.com/in/frederico-marques-dev/)
+* 💼 **LinkedIn do Desenvolvedor:** [linkedin.com/in/fredmarques916](https://www.linkedin.com/in/fredmarques916/)
   > 🤝 **Descrição:** Conexão profissional e histórico acadêmico/profissional.
 * 📧 **Contato por E-mail:** [fredmarques916@gmail.com](mailto:fredmarques916@gmail.com)
   > ✉️ **Descrição:** Canal direto para propostas, entrevistas e colaborações técnicas.
@@ -287,26 +287,16 @@ npm run preview
 
 ---
 
-## 🚀 Deploy no Render
+## 🌐 Aplicação Publicada
 
-O portfólio está configurado para publicação como **Static Site** gratuito no [Render](https://render.com), com HTTPS automático e deploy contínuo em cada `git push` na branch `main`.
+A aplicação está oficialmente hospedada e acessível em produção no **Render**:
 
-### Passo a Passo no Render Dashboard:
+🔗 **URL Oficial:** [https://portifolio-i1mc.onrender.com/](https://portifolio-i1mc.onrender.com/)
 
-1. Acesse o [Dashboard do Render](https://dashboard.render.com) e conecte sua conta do GitHub.
-2. Clique no botão **New +** e selecione **Static Site**.
-3. Selecione o repositório `fredmarques916/portifolio`.
-4. Configure os parâmetros exatos da aplicação:
-
-| Parâmetro | Valor Configurado | Motivo |
-|---|---|---|
-| **Name** | `frederico-marques` | Subdomínio na Render (`frederico-marques.onrender.com`) |
-| **Branch** | `main` | Ramo principal com código estável |
-| **Root Directory** | `portifolio` | **Essencial:** Aponta para a subpasta onde o `package.json` reside |
-| **Build Command** | `npm ci && npm run build` | Instalação limpa e geração do bundle Vite |
-| **Publish Directory** | `dist` | Diretório onde os arquivos compilados são gerados |
-
-5. Clique em **Create Static Site**. Em menos de 60 segundos o site estará online com CDN global.
+- **Plataforma:** Render (Static Site)
+- **Status:** Online (HTTPS / SSL Ativo)
+- **CDN:** Distribuição global de alta performance
+- **Deploy:** Sincronização e publicação contínua automática a cada atualização no GitHub
 
 ---
 
@@ -423,7 +413,7 @@ dist/assets/three-DG51oONY.js   539.20 kB │ gzip: 134.01 kB
 
 | 👤 Nome | 🖼️ Identificação | :octocat: GitHub | 💼 LinkedIn | 📤 E-mail |
 |:---:|:---:|:---:|:---:|:---:|
-| **Frederico Marques** | <div align="center"><b>FM // 916</b><br><i>Dev Full Stack em formação</i></div> | <div align="center"><a href="https://github.com/fredmarques916"><b>@fredmarques916</b></a></div> | <div align="center"><a href="https://www.linkedin.com/in/frederico-marques-dev/"><b>frederico-marques-dev</b></a></div> | <div align="center"><a href="mailto:fredmarques916@gmail.com"><b>fredmarques916@gmail.com</b></a></div> |
+| **Frederico Marques** | <div align="center"><b>FM // 916</b><br><i>Dev Full Stack em formação</i></div> | <div align="center"><a href="https://github.com/fredmarques916"><b>@fredmarques916</b></a></div> | <div align="center"><a href="https://www.linkedin.com/in/fredmarques916/"><b>fredmarques916</b></a></div> | <div align="center"><a href="mailto:fredmarques916@gmail.com"><b>fredmarques916@gmail.com</b></a></div> |
 
 > [!TIP]
 > Desenvolvedor cursando o 2º período de Engenharia de Software na PUC Minas, com foco em desenvolvimento back-end, engenharia de software e resolução de problemas estruturais.
