@@ -13,7 +13,7 @@
 .about-narrative-column {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 24px;
 }
 
 .lead-paragraph {
@@ -27,7 +27,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 16px;
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .stat-pill {
@@ -49,6 +49,119 @@
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--accent-volt);
+}
+
+/* DeMolay Heritage Card */
+.demolay-heritage-card {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border-left: 3px solid var(--accent-gold);
+  background: linear-gradient(135deg, rgba(16, 20, 29, 0.85) 0%, rgba(26, 18, 38, 0.5) 100%);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6), 0 0 24px var(--accent-gold-subtle);
+  margin-top: 12px;
+}
+
+.demolay-card-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.demolay-crest-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: var(--accent-gold-subtle);
+  border: 1px solid var(--border-gold);
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+  letter-spacing: 0.06em;
+}
+
+.crest-star {
+  color: var(--accent-gold);
+  font-size: 0.85rem;
+  text-shadow: 0 0 8px var(--accent-gold);
+}
+
+.demolay-virtue-count {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.demolay-heading {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.02em;
+}
+
+.demolay-desc {
+  font-size: 1rem;
+  color: #d1d5db;
+  line-height: 1.65;
+}
+
+/* Precepts Grid */
+.precepts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.precept-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(245, 183, 0, 0.18);
+  border-radius: 8px;
+  transition: all var(--duration-fast) var(--ease-spring);
+}
+
+.precept-item:hover {
+  background: rgba(245, 183, 0, 0.08);
+  border-color: var(--accent-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 0 0 12px var(--accent-gold-subtle);
+}
+
+.precept-number {
+  font-size: 0.74rem;
+  font-weight: 800;
+  color: var(--accent-gold);
+  padding-top: 2px;
+}
+
+.precept-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.precept-name {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #f3f5f9;
+}
+
+.precept-meaning {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  line-height: 1.4;
 }
 
 /* Pillars Column */

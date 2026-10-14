@@ -1,5 +1,4 @@
 import React from 'react';
-import HeroScene from '../../scenes/HeroScene/HeroScene';
 import './Hero.css';
 
 export function Hero({ profile, lang, t }) {
@@ -12,11 +11,6 @@ export function Hero({ profile, lang, t }) {
 
   return (
     <section id="hero" className="hero-section" aria-label="Apresentação de Frederico Marques">
-      {/* Background 3D Canvas Layer */}
-      <div className="hero-3d-layer">
-        <HeroScene fallbackNotice={t.hero.fallbackNotice} />
-      </div>
-
       <div className="section-container hero-container">
         {/* Top Telemetry Strip */}
         <div className="hero-telemetry-strip font-mono">

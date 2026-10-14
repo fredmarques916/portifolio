@@ -17,8 +17,31 @@ export const profileData = {
     en: "Software Engineering Student (2nd Semester) • PUC Minas",
   },
   summary: {
-    pt: "Desenvolvedor em formação contínua, movido pela curiosidade de desvendar a arquitetura interna de sistemas e solucionar problemas complexos. Com foco prioritário em desenvolvimento back-end e engenharia de software, dedico-me a construir códigos limpos, arquiteturas resilientes e soluções escaláveis, buscando minha primeira oportunidade profissional na área de desenvolvimento.",
-    en: "Developer in continuous growth, driven by deep curiosity about the inner workings of systems and solving complex challenges. Focusing primarily on back-end development and software engineering, I am dedicated to building clean code, resilient architectures, and scalable solutions, seeking my first professional opportunity in software development.",
+    pt: "Desenvolvedor em formação contínua, movido pela curiosidade de desvendar a arquitetura interna de sistemas e solucionar problemas complexos. Com foco prioritário em desenvolvimento back-end e engenharia de software, dedico-me a construir códigos limpos, arquiteturas resilientes e soluções escaláveis. Aliado à disciplina e aos preceitos de liderança cultivados na Ordem DeMolay, busco minha primeira oportunidade profissional na área de desenvolvimento.",
+    en: "Developer in continuous growth, driven by deep curiosity about the inner workings of systems and solving complex challenges. Focusing primarily on back-end development and software engineering, I am dedicated to building clean code, resilient architectures, and scalable solutions. Grounded in the discipline and leadership precepts nurtured in the Order of DeMolay, I am seeking my first professional opportunity in software development.",
+  },
+  demolay: {
+    title: {
+      pt: "Ordem DeMolay & Formação de Liderança",
+      en: "Order of DeMolay & Leadership Heritage",
+    },
+    role: {
+      pt: "Membro Ativo e Dedicado • 1ª Oficialaria Executiva Regional de MG",
+      en: "Dedicated Active Member • 1st Regional Executive Directorate of MG",
+    },
+    description: {
+      pt: "A vivência na Ordem DeMolay orienta minha ética pessoal e profissional. O compromisso inabalável com o dever, a integridade da palavra dada, o companheirismo e o serviço desinteressado à comunidade refletem diretamente na forma como encaro a engenharia de software: com disciplina, responsabilidade e respeito às pessoas.",
+      en: "My active journey in the Order of DeMolay guides my personal and engineering ethics. An unwavering commitment to duty, honor of word, comradeship, and community service directly shapes how I approach software engineering: with discipline, accountability, and deep respect for team and users.",
+    },
+    precepts: [
+      { name: { pt: "Amor Filial", en: "Filial Love" }, meaning: { pt: "Gratidão e respeito às origens", en: "Gratitude and respect for our roots" } },
+      { name: { pt: "Reverência pelas Coisas Sagradas", en: "Reverence" }, meaning: { pt: "Respeito às crenças e propósitos elevados", en: "Respect for sacred beliefs and noble purposes" } },
+      { name: { pt: "Cortesia", en: "Courtesy" }, meaning: { pt: "Urbanidade e empatia no trato humano", en: "Empathy, kindness and professional civility" } },
+      { name: { pt: "Companheirismo", en: "Comradeship" }, meaning: { pt: "Lealdade mútua e cooperação em equipe", en: "Mutual loyalty and selfless teamwork" } },
+      { name: { pt: "Fidelidade", en: "Fidelity" }, meaning: { pt: "Compromisso inegociável com a verdade e o dever", en: "Uncompromising integrity to truth and duty" } },
+      { name: { pt: "Pureza", en: "Cleanness" }, meaning: { pt: "Clareza de intenções, ética e código limpo", en: "Clarity of intent, ethics and clean architecture" } },
+      { name: { pt: "Patriotismo", en: "Patriotism" }, meaning: { pt: "Dedicação ativa à melhoria da sociedade", en: "Active dedication to uplifting society" } },
+    ],
   },
   interests: [
     { pt: "Desenvolvimento Back-end", en: "Back-end Development" },

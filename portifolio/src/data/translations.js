@@ -7,7 +7,7 @@ export const translations = {
   pt: {
     nav: {
       brand: "FM // 916",
-      about: "Sobre",
+      about: "Sobre & Valores",
       education: "Formação",
       technologies: "Tecnologias",
       projects: "Projetos",
@@ -22,7 +22,7 @@ export const translations = {
       role: "Desenvolvedor Full Stack em formação",
       signature: "Understanding. Building. Evolving.",
       intro:
-        "Focado em desenvolvimento back-end, engenharia de software e resolução de problemas estruturais. Construo soluções sólidas e auditáveis da concepção à entrega.",
+        "Focado em desenvolvimento back-end, engenharia de software e resolução de problemas estruturais. Construo soluções sólidas e auditáveis da concepção à entrega, guiado pela disciplina e valores da liderança DeMolay.",
       ctaProjects: "Explorar Projetos",
       ctaContact: "Entrar em Contato",
       telemetry: {
@@ -31,16 +31,16 @@ export const translations = {
         focus: "FOCO: BACK-END & ARQUITETURA",
         location: "MINAS GERAIS • BR",
       },
-      scrollPrompt: "Role para explorar a trajetória",
+      scrollPrompt: "Role para vivenciar a jornada 3D",
       fallbackNotice: "Exibindo visualização volumétrica otimizada",
     },
     about: {
-      tag: "// 01. IDENTIDADE E PROPÓSITO",
+      tag: "// 01. IDENTIDADE, PROPÓSITO & VALORES",
       title: "Compreender o núcleo para construir com excelência.",
       p1: "Minha trajetória na tecnologia é guiada por uma obsessão genuína: compreender como as coisas funcionam por dentro. Não me contento com código que apenas 'funciona'; busco entender o fluxo de dados, a integridade da persistência e a lógica arquitetural por trás de cada serviço.",
       p2: "Tenho preferência declarada pelo ecossistema back-end — onde regras de negócio, modelagem de dados e escalabilidade se encontram —, mas cultivo visão full stack completa para conceber e entregar aplicações de ponta a ponta.",
       p3: "Atualmente no 2º período de Engenharia de Software na PUC Minas, venho consolidando minha formação técnica anterior e aplicando conceitos em projetos reais com impacto tangível. Estou em busca da minha primeira oportunidade profissional como desenvolvedor de software.",
-      signatureHeading: "Os Três Pilares",
+      signatureHeading: "Os Três Pilares da Engenharia",
       pillars: [
         {
           title: "Understanding",
@@ -61,6 +61,8 @@ export const translations = {
         { label: "Período", value: "2º Período" },
         { label: "Alvo Profissional", value: "1ª Oportunidade Dev" },
       ],
+      demolayHeading: "Patrimônio DeMolay & As 7 Virtudes",
+      demolaySub: "Como os preceitos de honra e dever moldam minha conduta técnica, liderança e integridade de software.",
     },
     education: {
       tag: "// 02. FORMAÇÃO ACADÊMICA & TÉCNICA",
@@ -114,8 +116,14 @@ export const translations = {
     },
     footer: {
       signature: "Frederico Marques • Understanding. Building. Evolving.",
-      rights: "Desenvolvido com React, Three.js e dedicação à boa engenharia.",
+      rights: "Desenvolvido com React, Three.js e fidelidade aos deveres da engenharia e da Ordem.",
       backToTop: "Voltar ao topo",
+    },
+    scrollTelemetry: {
+      hero: "3D STAGE 01 // NÚCLEO ARQUITETURAL EM KINÉSIS",
+      about: "3D STAGE 02 // CONSTELAÇÃO DAS 7 VIRTUDES DEMOLAY",
+      projects: "3D STAGE 03 // REDE REGIONAL & EXPANDINDO HORIZONTES",
+      contact: "3D STAGE 04 // SELO HERÁLDICO DE LIDERANÇA",
     },
     common: {
       loading: "Carregando ambiente...",
@@ -127,7 +135,7 @@ export const translations = {
   en: {
     nav: {
       brand: "FM // 916",
-      about: "About",
+      about: "About & Values",
       education: "Education",
       technologies: "Tech Stack",
       projects: "Projects",
@@ -142,7 +150,7 @@ export const translations = {
       role: "Full Stack Developer in Training",
       signature: "Understanding. Building. Evolving.",
       intro:
-        "Focused on back-end development, software engineering, and solving structural problems. I build solid, auditable systems from architecture to deployment.",
+        "Focused on back-end development, software engineering, and structural problem solving. Building resilient, auditable systems from architecture to deployment, guided by the discipline and values of DeMolay leadership.",
       ctaProjects: "Explore Projects",
       ctaContact: "Get in Touch",
       telemetry: {
@@ -151,16 +159,16 @@ export const translations = {
         focus: "CORE: BACK-END & ARCHITECTURE",
         location: "MINAS GERAIS • BRAZIL",
       },
-      scrollPrompt: "Scroll to explore the journey",
+      scrollPrompt: "Scroll to experience the 3D journey",
       fallbackNotice: "Displaying optimized volumetric rendering",
     },
     about: {
-      tag: "// 01. IDENTITY & PURPOSE",
+      tag: "// 01. IDENTITY, PURPOSE & CORE VALUES",
       title: "Understanding the core to engineer with excellence.",
       p1: "My journey in technology is propelled by a genuine drive: to understand how complex systems operate under the hood. I do not settle for code that simply 'works'; I strive to grasp the data flow, persistence integrity, and underlying architectural logic behind every service.",
       p2: "My deliberate preference lies within the back-end ecosystem — where business rules, data modeling, and scalability converge —, yet I nurture a complete full-stack perspective to build and ship end-to-end applications.",
       p3: "Currently in my 2nd semester of Software Engineering at PUC Minas, I continuously reinforce my technical foundations by applying engineering concepts to tangible, real-world projects. I am actively seeking my first professional opportunity as a software developer.",
-      signatureHeading: "The Three Pillars",
+      signatureHeading: "The Three Pillars of Engineering",
       pillars: [
         {
           title: "Understanding",
@@ -181,6 +189,8 @@ export const translations = {
         { label: "Progress", value: "2nd Semester" },
         { label: "Target", value: "1st Software Dev Role" },
       ],
+      demolayHeading: "DeMolay Heritage & The 7 Cardinal Virtues",
+      demolaySub: "How the precepts of honor and duty forge my engineering discipline, leadership, and code integrity.",
     },
     education: {
       tag: "// 02. ACADEMIC & TECHNICAL FOUNDATION",
@@ -234,8 +244,14 @@ export const translations = {
     },
     footer: {
       signature: "Frederico Marques • Understanding. Building. Evolving.",
-      rights: "Built with React, Three.js, and dedication to craftsmanship.",
+      rights: "Built with React, Three.js, and dedication to craftsmanship, duty, and leadership.",
       backToTop: "Back to top",
+    },
+    scrollTelemetry: {
+      hero: "3D STAGE 01 // ARCHITECTURAL KINETIC CORE",
+      about: "3D STAGE 02 // 7 DEMOLAY VIRTUES CONSTELLATION",
+      projects: "3D STAGE 03 // REGIONAL NETWORK & HORIZONS EXPANDING",
+      contact: "3D STAGE 04 // HERALDIC LEADERSHIP SEAL",
     },
     common: {
       loading: "Initializing environment...",

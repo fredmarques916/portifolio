@@ -26,6 +26,41 @@ export function About({ profile, lang, t }) {
                 </div>
               ))}
             </div>
+
+            {/* DeMolay Leadership & Heritage Showcase */}
+            {profile.demolay && (
+              <div className="demolay-heritage-card glass-card">
+                <div className="demolay-card-top">
+                  <div className="demolay-crest-badge font-mono">
+                    <span className="crest-star">★</span>
+                    <span>{profile.demolay.role[lang]}</span>
+                  </div>
+                  <span className="demolay-virtue-count font-mono">
+                    {lang === 'pt' ? '7 PRECEITOS' : '7 PRECEPTS'}
+                  </span>
+                </div>
+
+                <h3 className="demolay-heading font-sans">
+                  {profile.demolay.title[lang]}
+                </h3>
+                <p className="demolay-desc">
+                  {profile.demolay.description[lang]}
+                </p>
+
+                {/* The 7 Cardinal Virtues Grid */}
+                <div className="precepts-grid">
+                  {profile.demolay.precepts.map((precept, pIdx) => (
+                    <div key={pIdx} className="precept-item">
+                      <div className="precept-number font-mono">0{pIdx + 1}</div>
+                      <div className="precept-content">
+                        <span className="precept-name">{precept.name[lang]}</span>
+                        <span className="precept-meaning">{precept.meaning[lang]}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Three Pillars Column (Understanding, Building, Evolving) */}

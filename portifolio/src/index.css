@@ -13,13 +13,24 @@
   --bg-card-hover: rgba(22, 28, 41, 0.88);
   --bg-glass: rgba(11, 13, 18, 0.85);
 
-  /* High-Octane Accents */
+  /* High-Octane Accents & DeMolay Heritage */
   --accent-volt: #d2f800;
   --accent-volt-glow: rgba(210, 248, 0, 0.28);
   --accent-volt-subtle: rgba(210, 248, 0, 0.1);
   --accent-cyan: #00e5ff;
   --accent-cyan-glow: rgba(0, 229, 255, 0.25);
   --accent-cyan-subtle: rgba(0, 229, 255, 0.08);
+
+  /* Chivalric Gold & Royal Crimson/Purple Accents */
+  --accent-gold: #f5b700;
+  --accent-gold-glow: rgba(245, 183, 0, 0.32);
+  --accent-gold-subtle: rgba(245, 183, 0, 0.1);
+  --border-gold: rgba(245, 183, 0, 0.4);
+  --accent-purple: #8b25cf;
+  --accent-purple-glow: rgba(139, 37, 207, 0.28);
+  --accent-purple-subtle: rgba(139, 37, 207, 0.12);
+  --border-purple: rgba(139, 37, 207, 0.35);
+  --accent-crimson: #d91438;
 
   /* Neutral & Borders */
   --text-primary: #f3f5f9;
